@@ -44,7 +44,7 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 
 import java.util.*
 
-class Solution {
+class MergeSortedArray {
     fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int) {
         val minHeap = PriorityQueue<Int>()
         for (i in 0 until m) {
