@@ -1,3 +1,7 @@
+/**
+ *  https://leetcode.com/problems/search-insert-position
+ */
+
 class SearchInsertPosition {
     fun searchInsert(nums: IntArray, target: Int): Int {
         if (target <= nums[0]){
